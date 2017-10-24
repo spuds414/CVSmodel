@@ -1,0 +1,97 @@
+.title {
+	text-align: center;
+}
+.subTitle {
+	font-size: 16px;
+}
+#summary {
+	padding: 16px 24px;
+	margin: 20px 40px 40px 40px;
+    border: 1px solid #AACCFF;
+    border-radius: 24px;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+	text-align: justify;
+}
+#subLinks {
+	width: 600px;
+	height: 20px;
+	margin: 32px auto;
+    text-align: center;
+}
+#sublinks ul {
+	display: inline;
+	margin: 0px auto;
+}
+#subLinks li {
+    width: 150px;
+	float: left;
+}
+#subLinks li.currentPage {
+	font-weight: bold;
+}
+
+#finance {
+	position: relative;
+    margin: 40px 0px;
+    border: 1px solid #99CCFF;
+}
+
+#labels {
+	position: absolute;
+	width: 800px;
+    z-index: 10;
+}
+#financeTitle {
+    position: absolute;
+    top: -20px;
+}
+#summaryGraph .flotr-grid-label {
+    margin-top: -16px;
+    background: transparent;
+    text-align: left;
+}
+code {
+    white-space: pre;
+    text-align: left;
+}
+.snippet {
+    padding: 0px 0px 3px 6px;
+    padding-left: 20px;
+    margin-left: 16px;
+    background: url('../../img/leftshadow.gif') repeat-y;
+}
+.snippetShow {
+    font-weight: normal; font-size: 12px; color: #999999; float: right; cursor: pointer;
+}
+.file {
+	font-family: monospace;
+	font-size: 1.2em;
+}
+.documentation p {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 8px;
+}
+.documentation ol {
+    font-size: 14px;
+}
+.documentation h3 {
+    padding-top: 12px;
+}
+.documentation h4 {
+    padding-left: 20px;
+    font-size: 14px;
+}
+.documentation p code {
+    font-size: 12px;
+}
+.documentation .snippet {
+    margin-left: 20px;
+}
+label {
+	float: none;
+}
+input {
+	width: auto;
+}
